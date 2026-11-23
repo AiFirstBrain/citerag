@@ -1,0 +1,6 @@
+{"q": "How many days of paid annual leave do full-time employees get?", "source": "sample_handbook.md", "must_include": ["24"], "answerable": true}
+{"q": "How many unused leave days can be carried over?", "source": "sample_handbook.md", "must_include": ["6"], "answerable": true}
+{"q": "How quickly must on-call acknowledge a SEV1 page?", "source": "sample_handbook.md", "must_include": ["10 minutes"], "answerable": true}
+{"q": "What is the home-office allowance for new employees?", "source": "sample_handbook.md", "must_include": ["25,000"], "answerable": true}
+{"q": "What is the company's parental leave policy?", "answerable": false}
+{"q": "What stock options do interns receive?", "answerable": false}

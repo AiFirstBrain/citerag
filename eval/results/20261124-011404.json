@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "provider": "mock",
+    "model": "",
+    "k": 5,
+    "n_answerable": 4,
+    "n_unanswerable": 2,
+    "retrieval_hit@5_%": 100.0,
+    "citation_valid_%": 100.0,
+    "cited_correct_source_%": 100.0,
+    "keyword_recall_%": 100.0,
+    "wrongly_abstained_%": 0.0,
+    "abstain_correct_%": 100.0,
+    "p50_latency_s": 0.0,
+    "total_cost_usd": 0.0
+  },
+  "rows": [
+    {
+      "q": "How many days of paid annual leave do full-time employees get?",
+      "answer": "Full-time employees receive 24 days of paid annual leave per calendar year, accrued at 2 days per month. [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 1.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 343,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "How many unused leave days can be carried over?",
+      "answer": "Up to 6 unused days can be carried over into the next year; any balance above 6 days lapses on 31 March. [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 1.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 340,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "How quickly must on-call acknowledge a SEV1 page?",
+      "answer": "A SEV1 incident requires the on-call engineer to acknowledge the page within 10 minutes and post a status update every 30 minutes until resolved. [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 1.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 169,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "What is the home-office allowance for new employees?",
+      "answer": "Each new employee receives a laptop and a one-time home-office allowance of INR 25,000. [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 1.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 216,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "What is the company's parental leave policy?",
+      "answer": "I don't know based on the provided documents.",
+      "answerable": false,
+      "abstain_correct": true,
+      "latency_s": 0.0,
+      "tokens": 101,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "What stock options do interns receive?",
+      "answer": "I don't know based on the provided documents.",
+      "answerable": false,
+      "abstain_correct": true,
+      "latency_s": 0.0,
+      "tokens": 99,
+      "cost_usd": 0.0
+    }
+  ]
+}

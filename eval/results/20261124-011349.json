@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "provider": "mock",
+    "model": "",
+    "k": 5,
+    "n_answerable": 4,
+    "n_unanswerable": 2,
+    "retrieval_hit@5_%": 100.0,
+    "citation_valid_%": 100.0,
+    "cited_correct_source_%": 100.0,
+    "keyword_recall_%": 0.0,
+    "wrongly_abstained_%": 0.0,
+    "abstain_correct_%": 0.0,
+    "p50_latency_s": 0.0,
+    "total_cost_usd": 0.0
+  },
+  "rows": [
+    {
+      "q": "How many days of paid annual leave do full-time employees get?",
+      "answer": "# Northwind Labs Employee Handbook (sample corpus \u2014 replace with your real one) [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 0.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 383,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "How many unused leave days can be carried over?",
+      "answer": "# Northwind Labs Employee Handbook (sample corpus \u2014 replace with your real one) [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 0.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 379,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "How quickly must on-call acknowledge a SEV1 page?",
+      "answer": "ployee has an annual learning budget of INR 40,000 for courses, books and conference tickets. [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 0.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 380,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "What is the home-office allowance for new employees?",
+      "answer": "# Northwind Labs Employee Handbook (sample corpus \u2014 replace with your real one) [1]",
+      "answerable": true,
+      "retrieval_hit": true,
+      "citation_valid": true,
+      "cited_correct": true,
+      "keyword_recall": 0.0,
+      "wrongly_abstained": false,
+      "latency_s": 0.0,
+      "tokens": 269,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "What is the company's parental leave policy?",
+      "answer": "# Northwind Labs Employee Handbook (sample corpus \u2014 replace with your real one) [1]",
+      "answerable": false,
+      "abstain_correct": false,
+      "latency_s": 0.0,
+      "tokens": 267,
+      "cost_usd": 0.0
+    },
+    {
+      "q": "What stock options do interns receive?",
+      "answer": "# Northwind Labs Employee Handbook (sample corpus \u2014 replace with your real one) [1]",
+      "answerable": false,
+      "abstain_correct": false,
+      "latency_s": 0.0,
+      "tokens": 265,
+      "cost_usd": 0.0
+    }
+  ]
+}
