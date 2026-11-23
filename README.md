@@ -17,6 +17,7 @@ _Day 1 numbers are on a 6-question sample corpus. Swap in the real corpus and a 
 
 ## What broke and how I fixed it
 - **Day 1: system abstained on every question.** BM25Okapi's IDF is `log((N-n+0.5)/(n+0.5))`, which is exactly 0 when a term appears in half the chunks. On a small corpus every score collapsed to 0 and retrieval returned nothing. Switched to BM25Plus (IDF stays positive) and filtered by query-term overlap instead of `score > 0`. Eval went from 0% to 100% retrieval hit on the sample set.
+- **Day 1: first real LLM call failed with HTTP 503.** The newest Gemini Flash model was overloaded. Added retries with exponential backoff + jitter on 429/5xx/network errors (never on auth or bad-request errors) and automatic fallback to a second model. The real outage hit 4 failures, then the fallback answered (22.8s). Then I promoted the model that actually worked to primary: 7.9s, first try.
 
 ## Architecture
 ```
